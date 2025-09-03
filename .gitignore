@@ -1,0 +1,26 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Operating System temporary files and logs
+.DS_Store
+*.log
+npm-debug.log*
+
+# Docker-related files to ignore from Git, but not from the Docker build context
+# (Docker will still copy files inside the 'app' directory,
+# even if these are listed here)
+.dockerignore
+
+# Large model files
+# These should be downloaded separately and placed in the app/ directory.
+# This prevents your Git repository from becoming too large.
+app/Yolo/yolov11.pt
+app/midas_weights/
