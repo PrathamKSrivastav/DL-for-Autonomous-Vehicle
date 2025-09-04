@@ -10,7 +10,7 @@ The objective of this project is to design and implement a deep learning-based m
 
 ---
 
-## �\a0 Technologies & Tools
+## 🖥️ Technologies & Tools
 
 - **Programming Languages**: Python
 - **Deep Learning Frameworks**: PyTorch, TensorFlow
